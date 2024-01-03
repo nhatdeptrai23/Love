@@ -1,0 +1,33 @@
+body {
+    background: url("background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+    position: relative;
+  }
+
+#music{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+}
+
+audio {
+  display: block;
+  margin: 0 auto;
+  background-color: #AC87C5;
+  border: 2px solid #AC87C5;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+#end{
+  position: absolute;
+  display: none;
+}
